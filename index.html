@@ -1,26 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ashan Willaddarage | Engineering Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #101c2e;
-      color: white;
-      text-align: center;
-      padding: 80px 20px;
-    }
-    h1 { font-size: 42px; }
-    p { color: #b9c7d9; }
-  </style>
+  <meta name="theme-color" content="#071421">
+  <meta name="description" content="Ashan Willaddarage — mechatronics engineering portfolio featuring robotics, embedded systems, control engineering, and applied AI projects.">
+  <title>Ashan Willaddarage | Mechatronics Engineering</title>
+  <meta property="og:title" content="Ashan Willaddarage | Engineering Portfolio">
+  <meta property="og:description" content="Robotics, embedded systems, control engineering, and applied AI.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ashanwilladdarage.com/">
+  <link rel="canonical" href="https://ashanwilladdarage.com/">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>Ashan Willaddarage</h1>
-  <p>Mechatronics Engineering | Robotics | Automation</p>
-  <h2>Engineering Portfolio</h2>
-  <p>Projects and technical experience</p>
-  <p>Full portfolio coming soon.</p>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Ashan Willaddarage home"><span class="brand-mark">AW<span class="brand-dot">.</span></span><span class="brand-label">ASHAN WILLADDARAGE</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Expertise</a><a href="#experience">Experience</a><a href="#contact" class="nav-contact">Let's connect <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> ENGINEERING PORTFOLIO <span class="eyebrow-rule"></span> BRISTOL, UK</div>
+        <p class="hero-preface">HELLO, I'M ASHAN.</p>
+        <h1>Designing the<br><span class="gradient-text">intelligent</span><br>systems of tomorrow<span class="period">.</span></h1>
+        <p class="hero-desc">I'm <strong>Ashan Willaddarage</strong>, a Mechatronics Engineering student exploring where <strong>robotics, embedded systems, control and AI</strong> meet. I turn engineering ideas into models, prototypes and measurable results.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="#contact">Get in touch <span aria-hidden="true">→</span></a></div>
+        <div class="hero-meta"><span>MECHATRONICS ENGINEERING</span><span class="bullet">•</span><span>ROBOTICS & AUTOMATION</span><span class="bullet">•</span><span>APPLIED AI</span></div>
+      </div>
+      <div class="hero-art" aria-label="Stylised technical illustration of a robotic arm and engineering diagram" role="img">
+        <div class="art-grid"></div><div class="art-label art-label-top">SYSTEM // 001 <span>ACTIVE</span></div>
+        <svg viewBox="0 0 520 520" class="robot-svg" aria-hidden="true" focusable="false">
+          <defs><linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7cc8f8"/><stop offset="1" stop-color="#3474a6"/></linearGradient><linearGradient id="metal2" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#a7defa"/><stop offset="1" stop-color="#426c9a"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="6"/></filter></defs>
+          <circle cx="254" cy="256" r="177" fill="none" stroke="#315c76" stroke-width="1" stroke-dasharray="4 8"/><circle cx="254" cy="256" r="120" fill="none" stroke="#315c76" stroke-width="1"/><circle cx="254" cy="256" r="73" fill="none" stroke="#315c76" stroke-width="1" stroke-dasharray="3 6"/>
+          <path d="M95 410H420M130 425H387" stroke="#3d6e8d" stroke-width="2"/><path d="M203 410V374H316V410" fill="#18364b" stroke="#76badd" stroke-width="3"/>
+          <path d="M242 374L203 323 274 242 316 277 284 332 316 374Z" fill="#193c58" stroke="url(#metal)" stroke-width="10" stroke-linejoin="round"/>
+          <path d="M260 258L222 236 310 132 348 162 302 257Z" fill="#224862" stroke="url(#metal2)" stroke-width="12" stroke-linejoin="round"/>
+          <path d="M318 139L360 102 395 130 351 168Z" fill="#21465d" stroke="#8bd0f0" stroke-width="8"/>
+          <path d="M388 121L410 108 432 124 408 141Z" fill="#427c9f" stroke="#b0e0f7" stroke-width="5"/>
+          <circle cx="279" cy="280" r="25" fill="#092134" stroke="#80c6e8" stroke-width="9"/><circle cx="329" cy="151" r="18" fill="#092134" stroke="#80c6e8" stroke-width="7"/><circle cx="379" cy="129" r="13" fill="#092134" stroke="#80c6e8" stroke-width="5"/>
+          <circle cx="279" cy="280" r="7" fill="#60d7dc"/><circle cx="329" cy="151" r="5" fill="#60d7dc"/>
+          <path d="M114 278H180M180 278L199 298M375 275H447M375 275L352 254" stroke="#60d7dc" stroke-width="1.4" stroke-dasharray="4 4"/><circle cx="114" cy="278" r="4" fill="#60d7dc"/><circle cx="447" cy="275" r="4" fill="#60d7dc"/>
+          <circle cx="254" cy="256" r="198" stroke="#4c86a5" stroke-opacity=".4" fill="none"/><path d="M254 45V75M254 439V467M42 256H76M434 256H464" stroke="#4b9fc1" stroke-width="2"/>
+        </svg>
+        <div class="art-chip art-chip-left"><span class="chip-title">CONTROL LOOP</span><span class="chip-value">PID <i>●</i> STABLE</span></div>
+        <div class="art-chip art-chip-right"><span class="chip-title">SYSTEM STATUS</span><span class="chip-value">ONLINE_</span></div>
+        <div class="art-label art-label-bottom">ROBOTICS <span> / </span> CONTROLS <span> / </span> INTELLIGENCE</div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Areas of interest"><div class="container ticker-inner"><span>ENGINEERING DESIGN</span><i>✳</i><span>ROBOTICS</span><i>✳</i><span>EMBEDDED SYSTEMS</span><i>✳</i><span>CONTROL SYSTEMS</span><i>✳</i><span>APPLIED MACHINE LEARNING</span></div></div>
+
+    <section id="about" class="section container about-section"><div class="section-heading"><div><p class="kicker">01 / ABOUT</p><h2>Curiosity meets<br><span>engineering rigour.</span></h2></div><p class="section-intro">From sensor-level electronics to system-level intelligence, I enjoy the entire path from an idea to a working, validated solution.</p></div><div class="about-panels"><div class="about-main"><p>I'm studying <strong>BEng (Hons) Mechatronics Engineering at UWE Bristol</strong>, with interests spanning industrial automation, robotics, embedded systems, and applied AI.</p><p>My work combines hands-on prototyping with simulation, data analysis, and experimental validation. I aim to make complex systems useful, dependable, and understandable.</p><a class="text-link" href="#projects">Discover what I've been working on <span>↗</span></a></div><div class="about-aside"><div class="metric"><span class="metric-icon">⌘</span><span>DESIGN + CODE + HARDWARE</span></div><div class="metric"><span class="metric-icon">◎</span><span>MODEL → PROTOTYPE → TEST</span></div><div class="metric"><span class="metric-icon">↗</span><span>OPEN TO ENGINEERING OPPORTUNITIES</span></div></div></div></section>
+
+    <section id="projects" class="section projects-section"><div class="container"><div class="section-heading"><div><p class="kicker">02 / SELECTED WORK</p><h2>Engineering in <span>practice.</span></h2></div><p class="section-intro">A selection of academic, research, and independent engineering projects. More detailed technical case studies will follow as they are documented.</p></div><div class="project-grid">
+      <article class="project-card featured"><div class="card-visual visual-robot"><div class="visual-cross">+</div><div class="mini-label">PROJECT 01 / ROBOTICS</div><div class="visual-outline">01</div><svg viewBox="0 0 470 190" aria-hidden="true"><path d="M28 150H420M78 164H378" stroke="#63b4d2" stroke-width="2"/><path d="M144 147L181 98L249 119L285 52L323 69" fill="none" stroke="#85d7ef" stroke-width="15" stroke-linejoin="round" stroke-linecap="round"/><path d="M321 70L365 92" stroke="#5ccbdc" stroke-width="12" stroke-linecap="round"/><g fill="#0e2b40" stroke="#b1e9f7" stroke-width="5"><circle cx="181" cy="98" r="13"/><circle cx="249" cy="119" r="13"/><circle cx="285" cy="52" r="12"/></g></svg></div><div class="card-body"><div class="card-topline"><span>FINAL-YEAR PROJECT</span><span class="status">IN PROGRESS</span></div><h3>Robotic Keyhole Detection & Fastening</h3><p>Exploring inductive sensing and robot positioning to locate concealed mounting features and support automated assembly.</p><div class="tags"><span>ROBOTICS</span><span>INDUCTIVE SENSING</span><span>AUTOMATION</span></div></div></article>
+      <article class="project-card"><div class="card-visual visual-graph"><div class="mini-label">PROJECT 02 / CONTROL</div><svg viewBox="0 0 420 190" aria-hidden="true"><g stroke="#43728e" stroke-width="1"><path d="M24 40H397M24 77H397M24 114H397M24 151H397M70 20V171M145 20V171M220 20V171M295 20V171M370 20V171"/></g><path d="M26 143 C58 141 70 30 112 43 S153 117 187 82 S234 66 273 77 S347 76 395 76" fill="none" stroke="#7de0df" stroke-width="4"/><path d="M26 76H395" stroke="#a8c9fb" stroke-width="2" stroke-dasharray="6 6"/></svg></div><div class="card-body"><div class="card-topline"><span>INDEPENDENT PROJECT</span><span class="status">ONGOING</span></div><h3>Hardware-in-the-Loop Motor Control</h3><p>DC motor modelling, closed-loop PID control, STM32 implementation, and fault analysis using simulation and measurement.</p><div class="tags"><span>MATLAB / SIMULINK</span><span>STM32</span><span>PID</span></div></div></article>
+      <article class="project-card"><div class="card-visual visual-wearable"><div class="mini-label">PROJECT 03 / EMBEDDED AI</div><svg viewBox="0 0 420 190" aria-hidden="true"><rect x="154" y="15" width="112" height="160" rx="38" fill="#163b54" stroke="#69bedb" stroke-width="4"/><rect x="166" y="49" width="88" height="90" rx="17" fill="#0a2337" stroke="#a5dbef" stroke-width="3"/><path d="M177 95H191L200 74L210 114L221 87L231 95H243" stroke="#69e0c8" stroke-width="3.5" fill="none"/><g fill="#78c9df"><circle cx="210" cy="34" r="3"/><circle cx="210" cy="156" r="3"/></g></svg></div><div class="card-body"><div class="card-topline"><span>RESEARCH & PROTOTYPING</span><span class="status">PROJECT</span></div><h3>Wearable Stress Detection System</h3><p>Exploring physiological sensing and machine learning for a wearable concept involving EDA, heart-rate signals, and temperature.</p><div class="tags"><span>SENSORS</span><span>ESP32</span><span>MACHINE LEARNING</span></div></div></article>
+      <article class="project-card"><div class="card-visual visual-data"><div class="mini-label">PROJECT 04 / DATA SCIENCE</div><svg viewBox="0 0 420 190" aria-hidden="true"><g stroke="#416781" stroke-width="1"><path d="M42 24V162H387"/><path d="M42 58H387M42 94H387M42 130H387" stroke-dasharray="3 5"/></g><g fill="#60b4db"><rect x="70" y="108" width="28" height="54" rx="3"/><rect x="121" y="86" width="28" height="76" rx="3"/><rect x="172" y="54" width="28" height="108" rx="3"/><rect x="223" y="75" width="28" height="87" rx="3"/><rect x="274" y="44" width="28" height="118" rx="3"/><rect x="325" y="62" width="28" height="100" rx="3"/></g><path d="M84 92L135 80L186 44L237 62L288 31L339 47" fill="none" stroke="#7fe0d3" stroke-width="3"/></svg></div><div class="card-body"><div class="card-topline"><span>ACADEMIC PROJECT</span><span class="status">ANALYSIS</span></div><h3>Machine Learning for Bearing Fault Classification</h3><p>Signal feature extraction, leakage-aware evaluation, and supervised learning to investigate machine-condition classification.</p><div class="tags"><span>PYTHON</span><span>SCIKIT-LEARN</span><span>ANALYTICS</span></div></div></article>
+    </div><p class="project-note">Technical reports, imagery, and repository links can be added as individual project case studies.</p></div></section>
+
+    <section id="skills" class="section container"><div class="section-heading"><div><p class="kicker">03 / CAPABILITIES</p><h2>Tools of the <span>trade.</span></h2></div><p class="section-intro">A multidisciplinary toolkit spanning hardware, software, and engineering analysis.</p></div><div class="skill-grid"><div class="skill-card"><div class="skill-symbol">⌁</div><h3>Robotics & Automation</h3><p>Robot systems, sensors, motion control, industrial automation, integration and testing.</p><div class="skill-keywords">ROS 2 · STM32 · PLC concepts</div></div><div class="skill-card"><div class="skill-symbol">◈</div><h3>Mechanical Design</h3><p>CAD modelling, design iteration, assembly concepts and prototype development.</p><div class="skill-keywords">SolidWorks · Fusion 360 · CAD</div></div><div class="skill-card"><div class="skill-symbol">⟲</div><h3>Control & Embedded Systems</h3><p>Dynamic modelling, control design, electronics and embedded implementation.</p><div class="skill-keywords">MATLAB · Simulink · C/C++</div></div><div class="skill-card"><div class="skill-symbol">▦</div><h3>Data & Applied AI</h3><p>Signal processing, analytical workflows, supervised learning and model evaluation.</p><div class="skill-keywords">Python · NumPy · scikit-learn</div></div></div></section>
+
+    <section id="experience" class="section experience-section"><div class="container"><div class="section-heading"><div><p class="kicker">04 / JOURNEY</p><h2>Always learning. <span>Always building.</span></h2></div></div><div class="timeline"><div class="timeline-item"><div class="timeline-year">EDUCATION</div><div><h3>BEng (Hons) Mechatronics Engineering</h3><p>University of the West of England (UWE Bristol)</p><span>Engineering design, automation, electronics, software and systems integration</span></div></div><div class="timeline-item"><div class="timeline-year">RESEARCH</div><div><h3>Engineering Research & Prototyping</h3><p>University and independent projects</p><span>Sensor characterisation, wearable systems, robotics and experimental evaluation</span></div></div><div class="timeline-item"><div class="timeline-year">FOCUS</div><div><h3>Industry-ready Engineering</h3><p>Robotics · Automation · Embedded Systems · Applied AI</p><span>Interested in translating technical ideas into measurable, real-world outcomes</span></div></div></div></div></section>
+
+    <section id="contact" class="section contact-section container"><div class="contact-panel"><div class="contact-glow"></div><p class="kicker">05 / CONTACT</p><h2>Let's build something<br><span>meaningful.</span></h2><p>Interested in engineering collaborations, research, or graduate opportunities? I'd be glad to connect.</p><div class="contact-buttons"><a class="btn btn-primary" href="https://github.com/ashnz" target="_blank" rel="noopener noreferrer">View GitHub profile <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" title="Replace this with your LinkedIn profile URL">LinkedIn <span aria-hidden="true">↗</span></a></div><p class="contact-hint">Before publishing, replace the general LinkedIn link with your personal profile URL, or remove that button.</p></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-row"><a class="brand footer-brand" href="#home"><span class="brand-mark">AW<span class="brand-dot">.</span></span></a><span>© <span id="year">2026</span> Ashan Willaddarage. Designed with purpose.</span><a href="#home">BACK TO TOP ↑</a></div></footer>
 </body>
 </html>
